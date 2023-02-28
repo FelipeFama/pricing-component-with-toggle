@@ -1,4 +1,4 @@
-import { Header, Navbar, ToggleArea } from "./styles";
+import { Header, Navbar, ToggleArea, ToggleBtn } from "./styles";
 
 export function Toggle() {
   return (
@@ -7,7 +7,7 @@ export function Toggle() {
       <Navbar>
         <p>Annually</p>
         <ToggleArea>
-          <div></div>
+          <ToggleBtn></ToggleBtn>
         </ToggleArea>
         <p>Monthly</p>
       </Navbar>

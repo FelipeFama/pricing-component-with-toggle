@@ -6,8 +6,8 @@ export function App() {
   return (
     <>
       <GlobalStyle />
+      <Toggle />
       <main>
-        <Toggle />
         <Card />
       </main>
     </>
