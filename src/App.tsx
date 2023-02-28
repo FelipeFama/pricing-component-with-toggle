@@ -1,7 +1,15 @@
+import { Toggle } from "./components/Toggle";
+import { Card } from "./components/Card";
+import { GlobalStyle } from "./styles/globalStyles";
+
 export function App() {
   return (
-    <div>
-      <p>pricing component</p>
-    </div>
+    <>
+      <GlobalStyle />
+      <main>
+        <Toggle />
+        <Card />
+      </main>
+    </>
   );
 }
