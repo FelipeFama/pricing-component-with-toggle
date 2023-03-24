@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import bgTop from "./images/bg-top.svg";
 import bgBottom from "./images/bg-bottom.svg";
 import { Toggle } from "./components/Toggle";
+import { Card } from "./components/Card";
 
 export function App() {
   const [priceMonthly, setPriceMonthly] = useState(false);
@@ -11,6 +12,7 @@ export function App() {
       <img className="absolute -z-50 -top-8 -right-2/4" src={bgTop} alt="" />
       <img className="absolute -z-50 hidden" src={bgBottom} alt="" />
       <Toggle priceMonthly={priceMonthly} setPriceMonthly={setPriceMonthly} />
+      <Card />
     </main>
   );
 }

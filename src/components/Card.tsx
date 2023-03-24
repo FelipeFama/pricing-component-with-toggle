@@ -1,9 +1,34 @@
 import React from "react";
 
-export function Card() {
+interface CardProps {
+  title: string;
+  price: number;
+  whatYouGet: string[];
+  bgColor?: string;
+  textColor?: string;
+  priceColor?: string;
+}
+
+export function Card({
+  title,
+  price,
+  whatYouGet,
+  bgColor,
+  textColor,
+  priceColor,
+}: CardProps) {
   return (
     <section>
-      <article></article>
+      <p></p>
+      <h2></h2>
+      <article>
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </article>
+      <button>LEARN MORE</button>
     </section>
   );
 }
