@@ -1,3 +1,4 @@
+import React from "react";
 import { backgroundImages } from "../data";
 
 export function Background() {
