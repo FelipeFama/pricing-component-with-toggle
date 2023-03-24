@@ -12,7 +12,7 @@ export function App() {
       <img className="absolute -z-50 -top-8 -right-2/4" src={bgTop} alt="" />
       <img className="absolute -z-50 hidden" src={bgBottom} alt="" />
       <Toggle priceMonthly={priceMonthly} setPriceMonthly={setPriceMonthly} />
-      <section>
+      <section className="max-w-6xl mx-auto mt-20 grid gap-8 items-center lg:grid-cols-3 lg:mt-9">
         <Card
           title="Basic"
           price={priceMonthly ? 19.99 : 199.99}
