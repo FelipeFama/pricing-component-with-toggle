@@ -3,6 +3,9 @@ module.exports = {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      borderWidth: {
+        1: "1px",
+      },
       fontFamily: {
         montserrat: ["Montserrat", "sans-serif"],
       },
