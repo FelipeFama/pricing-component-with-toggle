@@ -1,9 +1,5 @@
 import React from "react";
-
-interface ToggleProps {
-  priceMonthly: Boolean;
-  setPriceMonthly: Function;
-}
+import { ToggleProps } from "../types";
 
 export function Toggle({ priceMonthly, setPriceMonthly }: ToggleProps) {
   const handleChange = (evt: React.ChangeEvent<HTMLInputElement>): void => {
