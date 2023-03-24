@@ -18,7 +18,9 @@ export function Card({
   priceColor = "text-darkGrayishBlue",
 }: CardProps) {
   return (
-    <section className="">
+    <div
+      className={`rounded-2xl p-8 text-center shadow-md ${bgColor} ${textColor}`}
+    >
       <p className="mb-9 text-lg">{title}</p>
       <h2
         className={`text-7xl flex items-center justify-center mb-9 -tracking-[0.1125rem] ${priceColor}`}
@@ -34,6 +36,6 @@ export function Card({
         </ul>
       </article>
       <button>LEARN MORE</button>
-    </section>
+    </div>
   );
 }

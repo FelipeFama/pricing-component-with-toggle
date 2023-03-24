@@ -12,7 +12,13 @@ export function App() {
       <img className="absolute -z-50 -top-8 -right-2/4" src={bgTop} alt="" />
       <img className="absolute -z-50 hidden" src={bgBottom} alt="" />
       <Toggle priceMonthly={priceMonthly} setPriceMonthly={setPriceMonthly} />
-      <Card />
+      <section>
+        <Card
+          title="Basic"
+          price={priceMonthly ? 19.99 : 199.99}
+          whatYouGet={["1 TB Storage", "5 Users Allowed", "Send up to 10 GB"]}
+        />
+      </section>
     </main>
   );
 }
