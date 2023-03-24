@@ -14,6 +14,9 @@
         tracking-widest
         border-1
         border-linearGradient-to/0
+        transition 
+        ease-in-out
+        duration-500
       hover:text-linearGradient-to
         hover:bg-none
       hover:border-linearGradient-to;
@@ -27,6 +30,9 @@
         tracking-widest
         border-1
         border-white/0
+        transition 
+        ease-in-out
+        duration-500
       hover:text-white
         hover:bg-transparent
       hover:border-white;
