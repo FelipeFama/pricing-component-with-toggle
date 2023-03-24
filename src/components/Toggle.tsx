@@ -30,8 +30,8 @@ export function Toggle({ priceMonthly, setPriceMonthly }: ToggleProps) {
           <span
             className={
               priceMonthly
-                ? "absolute top-1/2 translate-x-[15px] -translate-y-1/2 h-6 w-6 rounded-full bg-white"
-                : "absolute top-1/2 translate-x-[15px] -translate-y-1/2 h-6 w-6 rounded-full bg-white"
+                ? "absolute top-1/2 translate-x-[15px] -translate-y-1/2 h-6 w-6 rounded-full bg-white transition-transform duration-300 ease-in-out"
+                : "absolute top-1/2 left-1 -translate-y-1/2 h-6 w-6 rounded-full bg-white transition-transform duration-300 ease-in-out"
             }
           ></span>
         </label>
