@@ -3,7 +3,7 @@ import { Background, Toggle, Card } from "./components";
 
 export function App() {
   const [priceMonthly, setPriceMonthly] = useState(false);
-  console.log({ priceMonthly, setPriceMonthly });
+
   return (
     <main className="relative z-0 overflow-hidden min-h-screen font-montserrat text-15  bg-veryLightGrayishBlue px-6 py-16">
       <Background />
