@@ -1,8 +1,5 @@
 import React, { useState } from "react";
-
-import { Toggle } from "./components/Toggle";
-import { Card } from "./components/Card";
-import { Background } from "./components/Background";
+import { Background, Toggle, Card } from "./components";
 
 export function App() {
   const [priceMonthly, setPriceMonthly] = useState(false);
