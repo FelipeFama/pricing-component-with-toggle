@@ -35,7 +35,9 @@ export function Card({
           <li className="py-4">{whatYouGet[2]}</li>
         </ul>
       </article>
-      <button>LEARN MORE</button>
+      <button className={bgColor !== "bg-white" ? "btnWhite" : "btnGradient"}>
+        LEARN MORE
+      </button>
     </div>
   );
 }

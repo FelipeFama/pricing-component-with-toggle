@@ -2,3 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .btnGradient {
+    @apply w-full
+        bg-gradient-to-r
+      from-linearGradient-from
+      to-linearGradient-to
+      text-white
+        p-3
+        rounded-md
+        tracking-widest
+        border-1
+        border-linearGradient-to/0
+      hover:text-linearGradient-to
+        hover:bg-none
+      hover:border-linearGradient-to;
+  }
+  .btnWhite {
+    @apply w-full 
+      bg-white 
+      text-linearGradient-to 
+        p-3
+        rounded-md 
+        tracking-widest
+        border-1
+        border-white/0
+      hover:text-white
+        hover:bg-transparent
+      hover:border-white;
+  }
+}
