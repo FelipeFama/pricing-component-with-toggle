@@ -19,7 +19,7 @@ export function Card({
 }: CardProps) {
   return (
     <div
-      className={`rounded-2xl p-8 text-center shadow-md ${bgColor} ${textColor}`}
+      className={`rounded-2xl p-8 text-center shadow-md lg:first:rounded-r-none lg:last:rounded-l-none lg:even:py-14 ${bgColor} ${textColor}`}
     >
       <p className="mb-9 text-lg">{title}</p>
       <h2

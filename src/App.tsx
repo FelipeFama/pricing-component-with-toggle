@@ -24,7 +24,7 @@ export function App() {
         />
         <Card
           title="master"
-          price={priceMonthly ? 39.99 : 399.0}
+          price={priceMonthly ? 39.99 : 399.99}
           whatYouGet={["2 TB Storage", "10 Users Allowed", "Send up to 20 GB"]}
         />
       </section>
