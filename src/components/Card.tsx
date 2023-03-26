@@ -1,6 +1,8 @@
 import React from "react";
 import { CardProps } from "../types";
 
+let dollar = String.fromCodePoint(0x00024);
+
 export function Card({
   title,
   price,
@@ -17,7 +19,7 @@ export function Card({
       <h2
         className={`text-7xl flex items-center justify-center mb-9 -tracking-[0.1125rem] ${priceColor}`}
       >
-        <span className="text-[2.5rem]">$</span>
+        <span className="text-[2.5rem]">{`${dollar}`}</span>
         {price}
       </h2>
       <div className="mb-8">
