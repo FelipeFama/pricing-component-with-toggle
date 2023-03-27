@@ -8,7 +8,7 @@ export function App() {
     <main className="relative z-0 overflow-hidden min-h-screen font-montserrat text-15  bg-veryLightGrayishBlue px-6 py-16">
       <Background />
       <Toggle priceMonthly={priceMonthly} setPriceMonthly={setPriceMonthly} />
-      <section className="max-w-6xl mx-auto mt-20 grid gap-8 items-center lg:gap-0 lg:grid-cols-3 lg:mt-9">
+      <section className="lg:max-w-6xl max-w-md mx-auto mt-20 grid gap-8 items-center lg:gap-0 lg:grid-cols-3 lg:mt-9">
         <Card
           title="Basic"
           price={priceMonthly ? 19.99 : 199.99}
