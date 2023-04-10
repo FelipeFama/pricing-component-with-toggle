@@ -5,7 +5,6 @@
 @layer utilities {
   body::-webkit-scrollbar {
     width: 0.8rem;
-    height: 1rem;
   }
 
   body::-webkit-scrollbar-track {
@@ -14,7 +13,7 @@
   }
 
   body::-webkit-scrollbar-thumb {
-    background: #696FDD;
+    background: #696fdd;
     border-radius: 100vh;
     border: 3px solid #f6f7ed;
   }
