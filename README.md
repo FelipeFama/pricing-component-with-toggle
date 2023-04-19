@@ -9,8 +9,8 @@
     <td>Desktop Version</td>
   </tr>
   <tr valign="top">
-    <td> <img height=680 src="https://user-images.githubusercontent.com/91050670/232945582-86b1de96-0398-4072-aa17-b41728a35f34.png" alt="mobile version" /></td>
-    <td><img height=680 src="https://user-images.githubusercontent.com/91050670/232945254-3388b7f7-afde-4238-8a60-62d369123ea5.png" alt="desktop version" /></td>
+    <td> <img src="https://user-images.githubusercontent.com/91050670/227649957-e491f3f0-f5be-4e9e-bc99-68ca6bed62ff.png" alt="mobile version" /></td>
+    <td><img src="https://user-images.githubusercontent.com/91050670/227645518-964b47e8-8ac7-4491-9596-ff9034491977.png" alt="desktop version" /></td>
   </tr>
 </table>
 
